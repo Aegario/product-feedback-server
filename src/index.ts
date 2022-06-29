@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server'
-import { schema } from '@app/schema'
+import { schema } from './schema'
 
 const server = new ApolloServer({
   schema,
