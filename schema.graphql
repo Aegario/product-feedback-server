@@ -2,6 +2,10 @@
 ### Do not make changes to this file directly
 
 
+type Mutation {
+  createUserDraft: User
+}
+
 type Query {
   ok: Boolean!
 }
